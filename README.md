@@ -1,4 +1,4 @@
-This is the HTML Mastery Assignment
+This is the HTML and CSS Mastery Assignment
 
 By Josh Whalen, Intro Coding for Journalists Course
 

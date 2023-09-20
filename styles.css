@@ -1,0 +1,86 @@
+/* Setting up font size to use rem */
+html{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 62.5%;
+}
+
+/* Setting up style for basic text elements */
+p, ul, ol, dl{
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin-bottom: 12px;
+}
+
+/* Assigning font to headings, then setting relative size in the next 5 blocks */
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-size: 2.7rem;
+  line-height: 3.1rem;
+  margin: 20px 0;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin: 16px 0;
+}
+
+h3{
+  font-size: 1.75rem;
+  margin: 25px 0 8px 0;
+}
+
+h4{
+  font-size: 1.25rem;
+}
+
+/* Centering content */
+article{
+  max-width: 620px;
+  margin: 0 auto;
+  
+}
+
+/* Giving some breathing room between the main image and start of the story */
+.story-start{
+  margin-top: 2rem;
+}
+
+.byline{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Right aligning caption with photo using float */
+.photo-creds{
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+
+}
+
+#date{
+  font-style: italic;
+}
+
+/* Styling the blockquote per the parameters in the assignment */
+blockquote{
+  border-left: solid grey 4px;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+
+/* Lining up ordered list with the rest of the content */
+ol{
+  list-style-position: inside;
+}
+
+/* Styling comment section */
+#community-comments{
+  background-color: #CCC;
+  padding: 12px;
+  margin: 0 auto;
+  
+}
